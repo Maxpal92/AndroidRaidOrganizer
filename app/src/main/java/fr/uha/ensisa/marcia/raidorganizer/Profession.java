@@ -5,18 +5,18 @@ package fr.uha.ensisa.marcia.raidorganizer;
  */
 
 public class Profession {
-    public static final int ALCHEMY = R.drawable.alchemy;
-    public static final int ARCHEOLOGIE = R.drawable.archaeology;
-    public static final int BLACKSMITHING = R.drawable.blacksmithing;
-    public static final int COOKING = R.drawable.cooking;
-    public static final int ENCHANTING = R.drawable.enchanting;
-    public static final int ENGINEERING = R.drawable.engineering;
-    public static final int FIRSTAID = R.drawable.first_aid;
-    public static final int FISHINF = R.drawable.fishing;
-    public static final int HERBALISM = R.drawable.herbalism;
-    public static final int JEWELCRAFTING = R.drawable.jewelcrafting;
-    public static final int MINING = R.drawable.mining;
-    public static final int SKINNING = R.drawable.skinning;
-    public static final int TAILORING = R.drawable.tailoring;
+    public static final int ALCHEMY = R.mipmap.alchemy;
+    public static final int ARCHEOLOGIE = R.mipmap.archaeology;
+    public static final int BLACKSMITHING = R.mipmap.blacksmithing;
+    public static final int COOKING = R.mipmap.cooking;
+    public static final int ENCHANTING = R.mipmap.enchanting;
+    public static final int ENGINEERING = R.mipmap.engineering;
+    public static final int FIRSTAID = R.mipmap.first_aid;
+    public static final int FISHINF = R.mipmap.fishing;
+    public static final int HERBALISM = R.mipmap.herbalism;
+    public static final int JEWELCRAFTING = R.mipmap.jewelcrafting;
+    public static final int MINING = R.mipmap.mining;
+    public static final int SKINNING = R.mipmap.skinning;
+    public static final int TAILORING = R.mipmap.tailoring;
 
 }
