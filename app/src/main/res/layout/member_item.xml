@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdc3c7"
+    android:id="@+id/relativeLayoutMemberNote">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memberIlvl"
+        android:textColor="@android:color/black"
+        android:textAlignment="textStart"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/memberName"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dps"
+        android:id="@+id/spe"
+        android:adjustViewBounds="true"
+        android:maxHeight="25dp"
+        android:maxWidth="25dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp"
+        android:layout_below="@+id/memberNote"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/paladin"
+        android:id="@+id/classeId"
+        android:maxHeight="25dp"
+        android:maxWidth="25dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp"
+        android:fadeScrollbars="false"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/memberNote"
+        android:layout_toStartOf="@+id/spe" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/humain"
+        android:id="@+id/portraitId"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memberNote"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/memberIlvl"
+        android:layout_toEndOf="@+id/portraitId" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memberName"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/portraitId" />
+</RelativeLayout>

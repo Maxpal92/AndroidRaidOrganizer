@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Head">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/humain"
+            android:id="@+id/imageView"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="150dp"
+            android:minWidth="150dp"
+            android:adjustViewBounds="false" />
+
+        <TextView
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameDetail"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:text="Spécialisation"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/classeDetail"
+            android:layout_alignEnd="@+id/classeDetail"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/specialisationDetail"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:text="Classe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/classeDetail"
+            android:layout_below="@+id/nameDetail"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/imageView"
+            android:textColor="@android:color/black"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Metier principale : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="160dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/metierPrincipale"
+                android:layout_weight="0.63"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mining"
+                android:id="@+id/metier1ImageView"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Metier Secondaire : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="160dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/metierSecondaire"
+                android:layout_weight="0.63"
+                android:textColor="@android:color/black"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blacksmithing"
+                android:id="@+id/metier2ImageVIew"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left">
+
+            <TextView
+                android:text="Degats par seconde :"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dpsDetail"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteDetail"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

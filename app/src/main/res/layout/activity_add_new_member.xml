@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_new_member"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.uha.ensisa.marcia.raidorganizer.AddNewMember"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Member Name"
+        android:ems="10"
+        android:id="@+id/editMemberName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Set the member DPS"
+        android:ems="10"
+        android:id="@+id/editMemberDps" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ilvlEditText"
+        android:hint="Set the member Ilvl" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/phoneNumberEditText"
+        android:hint="Set the phone @android:string/emptyPhoneNumber" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/classSpinner" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.44"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:text="Tank"
+                android:layout_height="wrap_content"
+                android:id="@+id/isTankRadioButton"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:text="Heal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isHealRadioButton"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:text="DPS"
+                android:layout_height="wrap_content"
+                android:id="@+id/isDPSRadioButton"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/metier1Spinner" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/metier2Spinner" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Write a simple note about your Member"
+        android:maxLength="110"
+        android:ems="10"
+        android:id="@+id/editMemberNote" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:text="Validate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/validateNewMember"
+            android:onClick="onValid"/>
+
+    </LinearLayout>
+</LinearLayout>

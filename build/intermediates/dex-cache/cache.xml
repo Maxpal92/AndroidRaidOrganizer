@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_4d88aa1b266dbece9d8e19b8b4e6006c1b24b616\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_50de3478e392c231c4b462f37517da47045675e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_6f26464c900fc7c9912b8d0209f21328d9760ab3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_11cad884952fc1e9374920b438c34335337b94e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_068688c58bab3f6a00dbf16dd79191ef70b94702\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_14c9bc5c9dda7284b6c8c9a7475557b6d27e4d67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="471daf3af474f1bdf09d69f19948a22e20d0b692">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_af4d5dbddca102209977581fb27d88e8b6172047\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_1f26e81111ebc6ec4d39ce08b869750b6f2903e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_826697a4d209243d8936c2aef6ed694ff293a2d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_f15091eab39846bcd16749f0d379b31e6d6b14f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_eeb17d55bc3c4231f2959f92658af670464c9ca0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9beeb5e1a8f05f3f45e3f434ac4e418862b19bad">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b795544e2abea51caa0f0c1b34c721de259f75a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_891b42f4fec7e0294eca17ec2cb55c2cac5274dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_21686261e55bf671175ac9a6999fb68d3d20e5e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5f3ba12cdfd5a6dc4a141319858294b164bfc61c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_aba92ee68f9aa55afac9e97ce63ce357870dc65a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\ENSISA\3A\Android\Projets\RaidOrganizer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a1f87d2f1cc6872ca8cfe1debec17dfb21e439ad\classes.dex" />
+    </item>
+
+</items>

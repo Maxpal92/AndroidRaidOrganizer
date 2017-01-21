@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RaidOrganizer</string>
+    <string name="contextual_menu_delete">Delete</string>
+    <string name="contextual_menu_edit">Edit</string>
+    <string name="contextual_menu_close">Close</string>
+    <string name="contextual_menu_send_message">Send Message</string>
+
+    <string-array name="classes_names">
+        <item>Paladin</item>
+        <item>Mage</item>
+        <item>Priest</item>
+        <item>Warrior</item>
+        <item>Shaman</item>
+        <item>Druid</item>
+        <item>Rogue</item>
+        <item>Warlock</item>
+        <item>Death Knight</item>
+        <item>Demon Hunter</item>
+        <item>Hunter</item>
+    </string-array>
+
+    <string-array name="professions">
+        <item>Alchemy</item>
+        <item>Archeologie</item>
+        <item>Blacksmithing</item>
+        <item>Cooking</item>
+        <item>Enchanting</item>
+        <item>Engineering</item>
+        <item>First-aid</item>
+        <item>Fishing</item>
+        <item>Herbalism</item>
+        <item>Jewelcrafting</item>
+        <item>Leatherwork</item>
+        <item>Mining</item>
+        <item>Skinning</item>
+        <item>Tailoring</item>
+        <item>No profession</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_roosters_members"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fr.uha.ensisa.marcia.raidorganizer.MyRoosters"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:text="Add Member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addMemberButton" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/listMembers"
+        android:layout_weight="0.77" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="412dp"
+        android:layout_below="@+id/totalDPSTextVIew"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_weight="0.17"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="Members :"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalMemberTextView"
+            android:layout_width="150dp" />
+
+        <TextView
+            android:text="Total DPS : "
+            android:layout_height="wrap_content"
+            android:id="@+id/totalDPSTextVIew"
+            android:layout_weight="1"
+            android:layout_below="@+id/totalMemberTextView"
+            android:layout_width="150dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

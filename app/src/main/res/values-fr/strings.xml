@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Organisateur de raid</string>
+    <string name="contextual_menu_delete">Supprimer</string>
+    <string name="contextual_menu_edit">Editer</string>
+    <string name="contextual_menu_close">Fermer</string>
+    <string name="contextual_menu_send_message">Envoyer Message</string>
+
+</resources>
